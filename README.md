@@ -1,23 +1,14 @@
-# zce-pages
-
-[![Build Status][actions-img]][actions-url]
-[![Coverage Status][codecov-img]][codecov-url]
-[![License][license-img]][license-url]
-[![NPM Downloads][downloads-img]][downloads-url]
-[![NPM Version][version-img]][version-url]
-[![Dependency Status][dependency-img]][dependency-url]
-[![devDependency Status][devdependency-img]][devdependency-url]
-[![Code Style][style-img]][style-url]
+# wxh-web
 
 > Awesome node modules.
 
 ## Installation
 
 ```shell
-$ npm install zce-pages
+$ npm install wxh-web
 
 # or yarn
-$ yarn add zce-pages
+$ yarn add wxh-web
 ```
 
 ## Usage
@@ -25,9 +16,7 @@ $ yarn add zce-pages
 <!-- TODO: Introduction of Usage -->
 
 ```javascript
-const zcePages = require('zce-pages')
-const result = zcePages('w')
-// result => 'w@zce.me'
+const zcePages = require("wxh-web");
 ```
 
 ## API
@@ -49,10 +38,6 @@ const result = zcePages('w')
 - Details: host string
 - Default: `'zce.me'`
 
-## Related
-
-- [zce/caz](https://github.com/zce/caz) - A simple yet powerful template-based Scaffolding tools.
-
 ## Contributing
 
 1. **Fork** it on GitHub!
@@ -67,22 +52,3 @@ const result = zcePages('w')
 ## License
 
 [MIT](LICENSE) &copy; [weldon](https://github.com/Weldon0/wxh-pages.git)
-
-
-
-[actions-img]: https://img.shields.io/github/workflow/status/ wxh/zce-pages/CI
-[actions-url]: https://github.com/ wxh/zce-pages/actions
-[codecov-img]: https://img.shields.io/codecov/c/github/ wxh/zce-pages
-[codecov-url]: https://codecov.io/gh/ wxh/zce-pages
-[license-img]: https://img.shields.io/github/license/ wxh/zce-pages
-[license-url]: https://github.com/ wxh/zce-pages/blob/master/LICENSE
-[downloads-img]: https://img.shields.io/npm/dm/zce-pages
-[downloads-url]: https://npm.im/zce-pages
-[version-img]: https://img.shields.io/npm/v/zce-pages
-[version-url]: https://npm.im/zce-pages
-[dependency-img]: https://img.shields.io/david/ wxh/zce-pages
-[dependency-url]: https://david-dm.org/ wxh/zce-pages
-[devdependency-img]: https://img.shields.io/david/dev/ wxh/zce-pages
-[devdependency-url]: https://david-dm.org/ wxh/zce-pages?type=dev
-[style-img]: https://img.shields.io/badge/code_style-standard-brightgreen
-[style-url]: https://standardjs.com
